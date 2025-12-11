@@ -1,8 +1,8 @@
 import streamlit as st
 import plotly.express as px
-from pages.dataset import df
-from pages.utils import format_number
-from pages.graficos import grafico_map_estado, grafico_rec_mensal, grafico_rec_estado, grafico_rec_categoria, grafico_rec_vendedores, grafico_vendas_vendedores
+from dataset import df
+from utils import format_number
+from graficos import grafico_map_estado, grafico_rec_mensal, grafico_rec_estado, grafico_rec_categoria, grafico_rec_vendedores, grafico_vendas_vendedores
 
 
 st.set_page_config(

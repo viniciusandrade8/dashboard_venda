@@ -1,5 +1,5 @@
 import plotly.express as px
-from pages.utils import df_rec_estado, df_rec_mensal, def_rec_categoria, df_vendedores
+from utils import df_rec_estado, df_rec_mensal, def_rec_categoria, df_vendedores
 
 
 #  RECEITA

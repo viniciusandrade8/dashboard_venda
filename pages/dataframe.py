@@ -1,6 +1,6 @@
 import streamlit as st
-from pages.dataset import df
-from pages.utils import convert_csv, mensagem_sucesso
+from dataset import df
+from utils import convert_csv, mensagem_sucesso
 
 
 #  Adicionando Páginas no dashboard do streamlit
