@@ -55,7 +55,7 @@ with aba2:
         st.plotly_chart(grafico_rec_mensal, use_container_width = True)
         st.plotly_chart(grafico_rec_categoria, use_container_width = True)
 
-#  RECEITAS
+#  VENDEDORES
 #  Criando as métrica na aba3
 with aba3:
     coluna1, coluna2 = st.columns(2)
